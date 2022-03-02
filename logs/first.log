@@ -1,0 +1,2099 @@
+Watching for file changes with StatReloader
+<QueryDict: {}>
+"GET /home/ HTTP/1.1" 200 10653
+<QueryDict: {'csrfmiddlewaretoken': ['W6T1T17PDE0qT6DyfisApyQa9T4ZbynQWWzmVmUcqPBueulfu2KaogyZTkR1LLbc'], 'bname': ['ttt'], 'bprice': ['90'], 'bqty': ['1']}>
+"POST /home/ HTTP/1.1" 302 0
+<QueryDict: {}>
+"GET /home/ HTTP/1.1" 200 10653
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' with arguments '(9,)' not found. 1 pattern(s) tried: ['soft\\-delete/\\Z']
+"GET /show-all-books/ HTTP/1.1" 500 140053
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138644
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138663
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138663
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138663
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139041
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139041
+Watching for file changes with StatReloader
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 54, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete' not found. 'soft_delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139022
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 11373
+"POST /delete/9/ HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10932
+"GET /edit/10/ HTTP/1.1" 200 10746
+"POST /home/ HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10931
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10932
+"GET /edit/10/ HTTP/1.1" 200 10746
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 43, in homepage
+    book_obj.save()
+AttributeError: 'str' object has no attribute 'save'
+"POST /home/ HTTP/1.1" 500 75595
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10932
+"GET /edit/10/ HTTP/1.1" 200 10747
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 43, in homepage
+    book_obj.save()
+AttributeError: 'str' object has no attribute 'save'
+"POST /home/ HTTP/1.1" 500 75591
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10932
+"GET /edit/10/ HTTP/1.1" 200 10747
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view book.views.homepage didn't return an HttpResponse object. It returned None instead.
+"POST /home/ HTTP/1.1" 500 76178
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10933
+"GET /edit/10/ HTTP/1.1" 200 10748
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10933
+"GET /edit/11/ HTTP/1.1" 200 10745
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10653
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10933
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10653
+"GET /home/ HTTP/1.1" 200 10629
+"GET /home/ HTTP/1.1" 200 10637
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10654
+"GET /delete-all-books/ HTTP/1.1" 200 10942
+"GET /delete-all-books/ HTTP/1.1" 200 10238
+"GET /home/ HTTP/1.1" 200 10654
+"GET /delete-all-books/ HTTP/1.1" 200 10238
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10654
+"GET /delete-all-books/ HTTP/1.1" 200 10290
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /delete-all-books/ HTTP/1.1" 200 10290
+"GET /delete-all-books/ HTTP/1.1" 200 10502
+"POST /delete-all-books/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"GET /delete-all-books/ HTTP/1.1" 200 10292
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 11814
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 50, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft delete' not found. 'soft delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138173
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 50, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft delete' not found. 'soft delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138159
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 50, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft delete' not found. 'soft delete' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 138157
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12462
+Internal Server Error: /soft-delete/12
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: soft_delete() got an unexpected keyword argument 'id'
+"GET /soft-delete/12? HTTP/1.1" 500 70644
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12462
+"GET /soft-delete/12? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12461
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12462
+"GET /soft-delete/12? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10042
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 11255
+"GET /soft-delete/16? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10042
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 11256
+"GET /soft-delete/18? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10648
+"GET /soft-delete/19? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10649
+- Broken pipe from ('127.0.0.1', 53634)
+
+"GET /soft-delete/19? HTTP/1.1" 302 0
+In Homepage
+all_books
+- Broken pipe from ('127.0.0.1', 53649)
+
+- Broken pipe from ('127.0.0.1', 53657)
+
+"GET /soft-delete/19? HTTP/1.1" 302 0
+"GET /soft-delete/19? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10649
+"GET /soft-delete/19? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10648
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10649
+"GET /soft-delete/19? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10042
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10043
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10043
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10675
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10675
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10675
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10674
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10674
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10682
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10682
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10693
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10670
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10670
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10674
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10697
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10733
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10716
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10720
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10720
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 10720
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+"POST /home/ HTTP/1.1" 302 0
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12749
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 13921
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12749
+"GET /home/ HTTP/1.1" 200 10654
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10654
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12740
+Not Found: /media/IMG_0590.jpeg
+"GET /media/IMG_0590.jpeg HTTP/1.1" 404 11945
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12740
+Not Found: /media/IMG_0590.jpeg
+"GET /media/IMG_0590.jpeg HTTP/1.1" 404 11945
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12740
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /delete-all-books/ HTTP/1.1" 200 10709
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12740
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' not found. 'soft_delete_single' is not a valid view function or pattern name.
+"GET /home/ HTTP/1.1" 500 125635
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 127459
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 127459
+Watching for file changes with StatReloader
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 127459
+Not Found: /
+"GET / HTTP/1.1" 404 12862
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11479
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 11275
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 3531
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 12923
+"GET /home HTTP/1.1" 301 0
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 126783
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 127459
+Internal Server Error: /home/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 30, in homepage
+    return render(request,template_name="home.html")
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' with no arguments not found. 1 pattern(s) tried: ['soft\\-delete\\-single/(?P<id>[0-9]+)\\Z']
+"GET /home/ HTTP/1.1" 500 127488
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /delete-all-books/ HTTP/1.1" 200 10709
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 13524
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+Internal Server Error: /soft-delete-single/20
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view book.views.soft_delete_single didn't return an HttpResponse object. It returned None instead.
+"GET /soft-delete-single/20? HTTP/1.1" 500 75273
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 13540
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+Internal Server Error: /soft-delete-single/21
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view book.views.soft_delete_single didn't return an HttpResponse object. It returned None instead.
+"GET /soft-delete-single/21? HTTP/1.1" 500 75273
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /soft-delete-single/21
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view book.views.soft_delete_single didn't return an HttpResponse object. It returned None instead.
+"GET /soft-delete-single/21? HTTP/1.1" 500 75245
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 13540
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 37, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' not found. 'soft_delete_single' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139475
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 37, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' not found. 'soft_delete_single' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139418
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+In Homepage
+all_books
+Internal Server Error: /show-all-books/
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "I:\B6\Django\B6_Library\book\views.py", line 37, in show_all_books
+    return render(request, "show_books.html", context=data)
+  File "I:\B6\b6_env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\resolvers.py", line 729, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'soft_delete_single' not found. 'soft_delete_single' is not a valid view function or pattern name.
+"GET /show-all-books/ HTTP/1.1" 500 139437
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12752
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /soft-delete/20? HTTP/1.1" 302 0
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12752
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /home/ HTTP/1.1" 200 10313
+Not Found: /media/download.jpeg
+"GET /media/download.jpeg HTTP/1.1" 404 11945
+"GET /home/ HTTP/1.1" 200 10313
+"GET /media/download.jpeg HTTP/1.1" 200 6688
+In Homepage
+all_books
+"GET /show-all-books/ HTTP/1.1" 200 12752
+"GET /home/ HTTP/1.1" 200 10313
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\models.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /aaa
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "I:\B6\b6_env\lib\site-packages\debug_toolbar\toolbar.py", line 70, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 295, in render
+    return nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /aaa HTTP/1.1" 500 132449
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'djdt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "I:\B6\b6_env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "I:\B6\b6_env\lib\site-packages\debug_toolbar\middleware.py", line 74, in __call__
+    rendered = toolbar.render_toolbar()
+  File "I:\B6\b6_env\lib\site-packages\debug_toolbar\toolbar.py", line 70, in render_toolbar
+    return render_to_string("debug_toolbar/base.html", context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "I:\B6\b6_env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\test\utils.py", line 101, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 295, in render
+    return nodelist.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "I:\B6\b6_env\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "I:\B6\b6_env\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "I:\B6\b6_env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'djdt' is not a registered namespace
+"GET /favicon.ico HTTP/1.1" 500 132334
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 11714
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+Not Found: /aaa/
+"GET /aaa/ HTTP/1.1" 404 11686
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 11690
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+I:\B6\Django\B6_Library\B6_Library\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+Not Found: /aaa/
+"GET /aaa/ HTTP/1.1" 404 11686
+Not Found: /
+"GET / HTTP/1.1" 404 11652
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+Not Found: /aaa
+"GET /aaa HTTP/1.1" 404 11682
+I:\B6\Django\B6_Library\B6_Library\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\B6_Library\urls.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views\view_3.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\views\view_3.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 11690
+Watching for file changes with StatReloader
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 11690
+Not Found: /
+"GET / HTTP/1.1" 404 11652
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 11690
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
+I:\B6\Django\B6_Library\book\forms.py changed, reloading.
+Watching for file changes with StatReloader
